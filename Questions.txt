@@ -1,0 +1,17 @@
+Task One (Python):
+1. Read the pupae data
+2. Convert ’CO2_treatment’ to a factor/categorical discrete variable. Inspect the levels of this
+factor variable.
+3. Make a scatter plot of Frass vs. PupalWeight, with blue solid circles for a CO2 concentration of
+280ppm and red for 400ppm. Also add a legend.
+4. The problem with the above figure is that data for both temperature treatments is combined.
+Make two plots (either in a PDF, or two plots side by side), one with the ’ambient’ temperature
+treatment, one with ’elevated’.
+5. In the above plot, make sure that the X and Y axis ranges are the same for both plots.
+6. Instead of making two separate plots, make one plot that uses different colors for the CO(2)
+treatments and different symbols for the ’ambient’ and ’elevated’ temperature treatments.
+Choose some nice symbols from the help page of the points function.
+7. Add two legends to the above plot, one for the temperature treatment (showing different
+plotting symbols), and one for the CO2 treatments (showing different colours).
+8. Generate the same plot as above but this time add a single legend that contains symbols and
+colours for each treatment combination (CO2 : T).
